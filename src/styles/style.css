@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+.active {
+    border-bottom: 3px solid white;
+}
+.vertical-center {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+  }
