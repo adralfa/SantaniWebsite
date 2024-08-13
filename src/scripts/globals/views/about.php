@@ -52,21 +52,29 @@
             <div class="col-md-7">
                 <h1 class="display-5 fw-bold mb-4">Prakata</h1>
                 <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal">Lihat Selengkapnya</button>
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modal">Lihat Selengkapnya</button>
 
-                <div class="modal fade" id="modal" role="dialog" tabindex="-1">
+                <div class="modal modal-md fade text-dark" id="modal" role="dialog" tabindex="-1">
                     <div class="modal-dialog modal-dialog-scrollable">
                         <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Modal title</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
+                            <div class="modal-header bg-success text-white">
+                                <h1 class="modal-title fs-5">PRAKATA</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
                         <div class="modal-body">
-                            <p>Modal body text goes here.</p>
+                            <div class="row my-3">
+                                <img src="src/public/images/orang.jpg" alt="orang" style="width: 60%;" class="img-fluid mx-auto d-block mb-3">
+                            <p class="fs-6">Lorem ipsum odor amet, consectetuer adipiscing elit. Nam habitasse suspendisse lacus risus leo senectus. Iaculis massa ultricies primis est lacus vitae tempus lectus. Risus natoque netus; risus dictum curae diam. Mauris hac mauris sed ullamcorper sapien morbi convallis phasellus dui. Donec euismod mus vestibulum pharetra efficitur. Sit per nostra aliquam dui tempus habitasse congue etiam. <br>
+                                Pellentesque egestas quam tristique velit imperdiet sagittis vel. Nisi sollicitudin rutrum consectetur platea mauris quis vel dis. Ligula malesuada volutpat per primis est conubia. Porta porttitor nulla efficitur orci hac. Turpis vel orci orci faucibus vulputate tincidunt parturient senectus faucibus. Vel eget sodales suspendisse vestibulum id vestibulum ridiculus condimentum. Pharetra torquent urna nascetur viverra feugiat laoreet parturient. Elit praesent fermentum habitasse orci ad. <br>            
+                                Felis est platea laoreet nascetur; est posuere ridiculus primis. Senectus venenatis finibus luctus, ornare taciti id. Neque class magna nisl lectus integer, ante conubia accumsan. Lorem bibendum nisl sapien potenti justo luctus quis. Nascetur conubia neque vitae velit finibus curabitur. Consequat iaculis mattis praesent a ex malesuada magnis phasellus. Curae adipiscing vestibulum quis fermentum suspendisse ligula. <br>  
+                                Eleifend mauris laoreet senectus maecenas tempus sapien. At ac penatibus auctor nec netus malesuada. Tortor cras torquent consequat lectus montes hac tincidunt. Vivamus nisi auctor eleifend curabitur libero eu. Accumsan euismod ad lorem litora sagittis penatibus. Commodo maximus semper ex condimentum rutrum iaculis posuere vestibulum nec. Euismod etiam elit scelerisque pharetra scelerisque taciti. Augue libero ultrices magnis erat faucibus; eget curae per aenean. <br>
+                                Tortor fermentum lobortis magnis morbi hendrerit; ipsum sem mollis. At eu bibendum ornare, dignissim senectus nunc. Orci dignissim nisi varius ante parturient in dui finibus. Diam pharetra tempor sed mollis; sapien malesuada enim senectus lorem. Aliquam ex eleifend consequat, leo congue ante lacinia fames ex. Fusce ac potenti nunc feugiat vitae. Tortor porta turpis donec dictum mollis maecenas. <br>
+                                Congue taciti litora tempor egestas metus semper. Egestas egestas nibh iaculis ex ut accumsan conubia erat. Enim hendrerit nam quam ultricies id risus per risus. Consequat pellentesque pulvinar per aenean penatibus auctor volutpat. Vitae ligula lectus curae mus tristique mollis arcu nam. Libero erat rhoncus laoreet parturient curae conubia mauris per volutpat? <br>
+                                Porttitor feugiat congue integer commodo ex faucibus. Magnis habitasse quam ligula arcu porta bibendum. Nisl a potenti sem, sociosqu integer magna. Vehicula dignissim tristique; finibus aenean sem eros. Ullamcorper ridiculus nostra risus congue feugiat mattis. Senectus congue consequat mus lacus nec penatibus. Nisl eleifend aliquet ultricies facilisi tellus ex mi primis massa. Nisi non tristique dui sem proin felis aliquet. Sollicitudin maecenas pretium varius rutrum nibh. Lectus quis ridiculus sem venenatis natoque finibus turpis ut.</p>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                        <div class="modal-footer bg-success">
+                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
                         </div>
                         </div>
                     </div>

@@ -77,7 +77,7 @@
     </div>
     <div class="row d-flex align-items-center justify-content-center">
         <div class="col-md-offset-2 col-md-8">
-            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="/src/public/images/carousel1.jpg" class="d-block w-100" alt="gambar1">

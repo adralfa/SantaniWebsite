@@ -1,3 +1,7 @@
+ <?php
+   include "src/scripts/globals/utils/koneksi.php";
+ ?>
+ 
  <!DOCTYPE html>
  <html lang="id">
  <head>
