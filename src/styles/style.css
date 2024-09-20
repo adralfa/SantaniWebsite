@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .active {
     border-bottom: 3px solid white;
@@ -8,4 +9,14 @@
     min-height: 100%;
     display: flex;
     align-items: center;
-  }
+}
+
+.cr-image {
+    height: 20%;
+}
+
+@media only screen and (max-width: 1119px) {
+    .nav-hamburger{
+        display: block;
+    }
+}
