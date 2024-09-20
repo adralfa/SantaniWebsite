@@ -2,17 +2,22 @@ const pageTitle = "Santani Nagarapageuh";
 // create an object that maps the url to the template, title, and description
 const routes = {
 	"/": {
-		template: "/src/scripts/globals/views/index.html",
+		template: "/src/scripts/globals/views/index.php",
 		title: "Home | " + pageTitle,
 		description: "This is the home page",
 	},
 	about: {
-		template: "/src/scripts/globals/views/about.html",
+		template: "/src/scripts/globals/views/about.php",
 		title: "About Us | " + pageTitle,
 		description: "This is the about page",
 	},
 	blog: {
-		template: "/src/scripts/globals/views/blog.html",
+		template: "/src/scripts/globals/views/blog.php",
+		title: "Blog | " + pageTitle,
+		description: "This is the blog page",
+	},
+	blog_details: {
+		template: "/src/scripts/globals/views/blog_details.php",
 		title: "Blog | " + pageTitle,
 		description: "This is the blog page",
 	},
